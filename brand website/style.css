@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #7c8adb;
+}
+header {
+    width: auto;
+    height: 30rem;
+    background-color: #f7f7f8;
+}
+.tiny {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 20px;
+}
+.money {
+    color: #ffc436;
+    font-weight: 900;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 20px;
+    font-weight: 700;
+    color: #788aee;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-list-1 {
+    background-color: #ffc436;
+    border-radius: 3rem 0 0 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li:hover {
+    background-color: #788aee;
+    color: #fffdfd;
+    border-radius: 3rem;
+    padding: 10px 20px;
+}
+.contact {
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+}
+.info {
+    display: flex;
+    background-color: #fff;
+    padding: 3px;
+}
+.info2 {
+    background-color: #ffc436;
+    padding-top: 10px;
+    border-radius: 0 3rem 3rem 0;
+    color: #4477ce;
+    font-weight: 700;
+    cursor: pointer;
+}
+.span {
+    padding: 10px;
+    color: #4477ce;
+    cursor: pointer;
+}
+.loan {
+    margin: 0 20px;
+}
+.info img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.textings {
+    max-width: 500px;
+}
+.form {
+    max-width: 300px;
+    background-color: #fff;
+    border: 5px solid #7c8adb;
+    color: #788aee;
+    margin: 20px auto;
+    border-radius: 5rem 0 5rem 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.2);
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.news {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto;
+}
+.first {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7c8adb;
+    padding-right: 200px;
+}
+.second {
+    text-align: center;
+}
+.ok {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px auto;
+    margin-bottom: 15px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    background-color: #7c8adb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+.but {
+    background-color: #4477ce;
+    color: #faf8f8;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.contenta {
+    margin-top: 200px;
+}
+.rid {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+.sector {
+    background-color: #fff;
+}
+
+
+
